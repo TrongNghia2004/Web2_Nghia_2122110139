@@ -1,0 +1,57 @@
+    # INDEX ?
+- Khái niệm ?: Index là một cấu trúc dữ liệu dùng để định vị và truy vấn dữ liệu nhanh.
+
+- Tại sao phải sử dụng index ?: Index giúp truy xuất dữ liệu nhanh hơn, cải thiện hiệu xuất truy vấn, 
+                                dễ dàng sắp xếp và tổ chức dữ liệu, Tăng tốc xử lý dữ liệu lớn...
+
+- Khi nào cần sử dụng index ?: Khi cần truy xuất dữ liệu nhanh, khi làm việc với dữ liệu lớn, khi hiển thị danh sách dữ liệu
+                               động... 
+
+- Ưu điểm và nhược điểm của Index ?: 
+        - Ưu điểm: tăng tốc truy vấn dữ liệu
+                   Truy suất phần tử nhanh trong mảng
+                   Tăng tốc tìm kiếm dữ liệu lớn
+                   Tối ưu hiển thị danh sách giao diện
+        - Nhược điểm : Tốn dung lượng bộ nhớ
+                       Chạy chậm khi thêm, xóa, sửa, index phải cập nhật lại làm giảm tốc độ 
+
+- Một số lưu ý khi dùng Index ?: Không nên sử dụng index : Ở các bảng table nhỏ, ít dữ liệu
+                                                           Ở các cột phải cập nhật dữ liệu thường xuyên
+
+
+    # TRIGGER ?
+- Khái niệm ?: Trigger là một cơ chế tự động thực thi khi có hành động xảy ra trong bảng
+
+- Tại sao phải sử dụng Trigger ?: Trigger giúp kiểm tra, ghi log, thông báo khi có thây đổi, hạn chế lỗi do người dùng nhập sai
+
+- Khi nào cần sử dụng Trigger ?: Khi muốn ghi log lịch sử thay đổi trên bảng dữ liệu...
+
+- Ưu điểm và nhược điểm của Trigger ?:
+        - Ưu điểm: Tăng bảo mật
+                   Tự động hóa xử lý dữ liệu
+                   Cải thiện dữ liệu
+        - Nhược điểm: Khó debug và kiểm soát lỗi
+                      Ảnh hưởng hiệu suất
+- Một số lưu ý khi sử dụn TRigger ?: Không nên dùng trigger quá nhiều vì có thể làm giảm hiệu suất data
+                                     Tránh lặp trigger có thể gây vòng lặp vô hạn
+                                     
+
+    # TRANSACTIONS ?
+- Khái niệm: Transactions là một tập hợp các thao tác trong SQL(thêm, xóa , sửa)
+
+- Tại sao phải sử dụng Transactions ?: Transactions giúp đảm bảo toàn vẹn dữ liệu, giảm rũi ro lỗi, tăng độ tin cậy của hệ thống
+
+- Khi nào sử dụng Transactions ?: Khi có nhiều thao tác SQL phụ thuộc lẫn nhau, khi cập nhập nhiều bảng cùng lúc, 
+                                  khi đảm bảo dữ liệu không lỗi
+
+- Ưu điểm và nhược điểm của Transactions: 
+        - Ưu điểm: Đảm bảo tính toàn vẹn dữ liệu 
+                   Tăng độ tin cậy của hệ thống 
+                   Hạn chế lỗi khi thao tác trên nhiều bảng 
+
+        - Nhược điểm: Có thể ảnh hưởng hiệu suất
+
+
+
+                                
+
